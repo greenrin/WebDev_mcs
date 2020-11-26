@@ -8,7 +8,7 @@
 	font-size: 50px;
 	font-weight: bold;
 	font-style: normal;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Playfair Display', serif;
 	position: center;
 	line-height: 200px;
 }
@@ -25,19 +25,19 @@
 
 }
 .homework p{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto Slab', serif;
 	line-height: 100px;
 	font-size: 25px;
 }
-.text p {
-	font-family: 'Roboto Slab', serif;
+.text h2 {
+	font-family: 'Playfair Display', serif;
 	font-weight: bold;
 	font-size: 50px;
 	line-height: 300px;
 }
 
 .text {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 50px;
 	font-weight: normal;
 	height: 847px;
@@ -45,13 +45,20 @@
 
 }
 
+
 .logo {
 	background-color: #E5E000;
 	width: 1440px;
 	height: 200px;
-	background-image: url(../img/logo.png) left no-repeat;
-	
-
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-position-y: center;
+	}
+.logo p{
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+	text-align: right;
+	line-height: 200px;
 }
 .footing div{
 
