@@ -53,6 +53,7 @@
 	background-image: url("../img/logo.png");
 	background-repeat: no-repeat;
 	background-position-y: center;
+	
 	}
 .logo p{
 	font-family: 'Playfair Display', serif;
@@ -60,6 +61,50 @@
 	text-align: right;
 	line-height: 200px;
 }
-.footing div{
+.footing {
+	background-color: white;
+	width: 1440px;
+	height: 680px;
+}
+.footing .head{
+	background-color: black;
+	width: 1400px;
+	height: 60px;
+	margin-top: 120px;
+	margin-left: 20px;
+ 	
+}
+.footing .head a{
+	font-family: 'Roboto Slab', serif;
+ 	font-size: 20px;
+ 	line-height: 23px;
+ 	color: white;
 
 }
+.footing .head p{
+	font-family: 'Roboto Slab', serif;
+ 	font-size: 20px;
+ 	text-align: left;
+ 	line-height: 23px;
+ 	color: white;
+}
+.footing .body{
+ 	background-color: black;
+ 	width: 300px;
+ 	height: 200px;
+ 	margin-top: 65px;
+ 	margin-left: 182px;
+ }
+
+ .footing .body a{
+ 	color: white;
+ 	font-size: 20px;
+
+ }
+ .footing .body p{
+ 	background-color: white;
+ 	border-color: black;
+ 	border-style: solid;
+ 	margin-left: 492px;
+ 	margin-top:65px;
+ }
