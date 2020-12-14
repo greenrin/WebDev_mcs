@@ -1,0 +1,44 @@
+@import url(reset css);
+section{
+	height: 600px;
+	border: 1px solid black;
+}
+
+.inner{
+	width: 50px;
+	height: 50px;
+}
+
+.static .inner{
+	background-color: red;
+	position: static; /*расположение по умолчанию. не вырывает из потока, нельзя сдвигать
+	прямыми инструкциями top итп, позиционируется относительно блока*/
+	margin: 20px;
+}
+
+.relative .inner{
+	background-color: orange;
+	position: relative;/*не вырывает из потока, объект сдвигается относительно
+	самого себя прямыми командами*/
+	top: 50px;
+	left: 30px;
+}
+
+.absolute{
+	position: relative; /*Сейчас мы позиционировали саму секцию релатив и благодаря
+	этому иннер будет позиционироваться внутри этой секции, несмотря на собственное
+	позиционирование абсолют*/
+}
+.absolute .inner{
+	background-color: purple;
+	position: absolute;/* Вырывает элемент из потока, позиционируется относительно
+	всего документа, а не своей секции*/
+
+}
+.fixed .inner{
+	background-color: green;
+	position: fixed;/*позиционируется относительно окна браузера, ездит вместе с 
+	прокручиванием страницы, вырывается из потока*/
+	right: 100px;
+	bottom: 200px;
+}
