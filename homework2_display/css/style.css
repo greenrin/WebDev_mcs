@@ -1,0 +1,92 @@
+@import url(reset css);
+
+.page{
+	height: 1024px;
+	
+}
+
+.header{
+	height: 60px;
+	background-color: #FE1A19;
+	color: white;
+}
+.header div{
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: : Roboto;
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+.main{
+	height: 904px;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 16px;
+
+}
+
+.first{
+	height: 800px;
+	width: 400px;
+	border: 5px solid yellow;
+	border-radius: 30px;
+	display: inline-block;
+	box-sizing: border-box;	
+	position: static;
+	list-style-type: none;
+	text-align: left;
+	padding-left: 33px;
+
+}
+.first ul{
+	list-style-type: none;
+}
+
+.second{
+	height: 800px;
+	width: 400px;
+	border: 5px solid yellow;
+	border-radius: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+	position: static;	
+	margin: 52px 50px;
+	text-align: left;
+	padding-left: 33px;
+}
+.second ul{
+	list-style-type: none;
+}
+
+.third{
+	height: 800px;
+	width: 400px;
+	border: 5px solid yellow;
+	border-radius: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+	position: static;
+	text-align: left;
+	padding-left: 33px;
+}
+
+.third ul{
+	list-style-type: none;
+}
+
+.footer{
+	height: 60px;
+	background-color: #FE1A19;
+	color: white;
+	
+}
+.footer div{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
