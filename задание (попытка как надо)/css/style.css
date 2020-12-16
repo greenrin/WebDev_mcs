@@ -1,14 +1,21 @@
+
 .page {
  font-family: sans-serif;
 }
-
+* { 
+	padding: 0;
+  	margin: 0;
+  	box-sizing: border-box;
+  	outline: 3px solid red;
+ 
+}
 a {
- color: white;
+ color: red;
 }
 .header, footer {
  height: 50px;
  background-color: black;
- color: white;
+ color: red;
  padding: 15px;
  box-sizing: border-box;
 }
@@ -19,8 +26,7 @@ a {
  margin: auto;
 }
 .logo {
- font-size: 20px;
- width: 200px;
+ font-size: 16px;
  display: inline-block;
 }
 .menu {
@@ -30,7 +36,7 @@ a {
 
 .menu li {
  margin-right: 5px;
- display: inline;
+ display: inline-block;
 }
 
 .columns {
