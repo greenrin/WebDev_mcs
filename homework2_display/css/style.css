@@ -26,7 +26,7 @@
 
 }
 
-.first {
+.main section {
 	width: 400px;
 	border: 5px solid yellow;
 	border-radius: 30px;
@@ -38,46 +38,14 @@
 	padding-left: 33px; 
 }
 
-.second{
-	width: 400px;
-	border: 5px solid yellow;
-	border-radius: 30px;
-	display: inline-block;
-	box-sizing: border-box;	
-	position: static;
-	list-style-type: none;
-	text-align: left;
-	padding-left: 33px;
+.two{
 	margin: 50px;
-	
 }
 
-.third{
-	width: 400px;
-	border: 5px solid yellow;
-	border-radius: 30px;
-	display: inline-block;
-	box-sizing: border-box;	
-	position: static;
-	list-style-type: none;
-	text-align: left;
-	padding-left: 33px;
-}
-	
-.first ul{
+.main ul{
 	list-style-type: none;
 }
 
-
-.second ul{
-	list-style-type: none;
-}
-
-
-
-.third ul{
-	list-style-type: none;
-}
 
 .footer{
 	height: 60px;
