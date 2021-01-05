@@ -73,16 +73,19 @@
 .description{
 	width: 1040px;
 	height: 280px;
-	background-image: url("../img/glass.png")
+	background-image: url("../img/glass.png");
 	background-repeat: no-repeat;
-	background-position: left center;
+	background-position-x: 10%;
+	background-position-y: center;
 	border: 3px solid #F8BFC7;
 	border-radius: 20px;
 	box-sizing: content-box;
 	text-align: left;
+	padding-left: 20%;
+	padding-bottom: 30px;
 	margin-top: 10%;
 	margin-left: 15%;
-	margin-bottom: 10%;*/
+	margin-bottom: 10%;
 
 }
 
