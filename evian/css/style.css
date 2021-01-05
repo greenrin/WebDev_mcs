@@ -1,0 +1,97 @@
+@import url(reset css);
+
+.header{
+	height: 140px;
+	display: flex;
+	color: rgb(229,0,67,1);
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	font-style: normal;
+	align-items: center;
+	align-content: space-around;
+	justify-content: space-between;
+
+}
+.header a{
+	color: rgb(229,0,67,1);
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+	padding: 25px;
+}
+
+.body{
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+
+}
+.background{
+	background-image: url("../img/logo1.png");
+	background-size: cover;
+	height: 950px;
+
+}
+
+.text{
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+	width: 70%;
+	box-sizing: border-box;
+	text-align: left;
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-bottom: 10%;
+}
+.bottles{
+	display: flex;
+	justify-content: space-around;
+}
+.first{
+	background-image: url("../img/wang.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 281px;
+	height: 863px;
+}
+.second{
+	background-image: url("../img/blue.png");
+	background-repeat: no-repeat;
+	width: 281px;
+	height: 863px;
+}
+.third{
+	background-image: url("../img/chiara.png");
+	background-repeat: no-repeat;
+	width: 281px;
+	height: 863px;
+}
+.names{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.description{
+	width: 1040px;
+	height: 280px;
+	background-image: url("../img/glass.png")
+	background-repeat: no-repeat;
+	background-position: left center;
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+	box-sizing: content-box;
+	text-align: left;
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-bottom: 10%;*/
+
+}
+
+.foot{
+	height: 140px;
+	background-color: #F8BFC7;
+	color: white;
+	font-size: 50px;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
