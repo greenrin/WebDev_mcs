@@ -2,15 +2,15 @@
 
 .header{
 	height: 140px;
+	width: 100%;
 	display: flex;
 	color: rgb(229,0,67,1);
 	font-family: 'Roboto Slab', serif;
 	font-size: 50px;
 	font-style: normal;
 	align-items: center;
-	align-content: space-around;
+	position: fixed;
 	justify-content: space-between;
-
 }
 .header a{
 	color: rgb(229,0,67,1);
@@ -19,17 +19,29 @@
 	padding: 25px;
 }
 
-.body{
+.crutch{
+	background-color: white;
+	height: 140px;
+}
+.content{
 	font-family: 'Playfair Display', serif;
 	font-size: 25px;
+	
 
 }
 .background{
 	background-image: url("../img/logo1.png");
 	background-size: cover;
 	height: 950px;
-
+	color: rgb(229,0,67,1);
+	font-family: 'Roboto Slab', serif;
+	font-size: 100px;
+	display: flex;
+	justify-content: center;
+	padding-top:25%;
+	box-sizing: border-box;
 }
+
 
 .text{
 	border: 3px solid #F8BFC7;
