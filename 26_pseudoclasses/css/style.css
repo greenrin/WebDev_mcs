@@ -1,0 +1,23 @@
+a{
+	display: block;
+	width: 200px;
+	height: 50px;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+a:hover{
+	background-color: green;
+}
+a:active{
+	box-shadow: 0 0 10px grey;
+	color: orange;
+}
+a:visited{
+	color: lightgrey;
+}
