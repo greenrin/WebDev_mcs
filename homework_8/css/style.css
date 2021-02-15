@@ -32,20 +32,30 @@
 	border:1px solid black;
 	margin-top: 5%;
 	margin-bottom: 5%;
+}
 
+.column h2{
+	padding:2%;
+	font-weight: bold;
 }
 .column p{
 	padding:2%;
 }
 
-
 .image{
-	background-image: url(../img/Click_Shelf.png)
 	background-size: cover;
 	background-position: center;
 	padding-bottom: 100%; 
 }
-
+.image.one{
+	background-image: url(../img/Meta_Side_Table.png);
+}
+.image.two{
+	background-image: url(../img/Click_Shelf.png);
+}
+.image.three{
+	background-image: url(../img/Float_Shelf.png);
+}
 .footer{
 	max-height: 160px;
 	background-color: var(--main-background-color);
