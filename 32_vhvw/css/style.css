@@ -1,0 +1,12 @@
+@import url(reser.css);
+
+.vh{
+	height: 30vh;
+	width: 60vw;
+	background-color: black;
+}
+.vminvmax{
+	background-color: green;
+	height: 30vmax;
+	width: 40vmin;
+}

@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+.columns{
+	width: 80vw;
+	margin:auto;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch; /*растягиваются на весь блок*/
+	background-color: lightgrey;
+}
+
+.column{
+	width: calc((100% - 40px)/3);
+	background-color: lightblue;
+}
+
+.image{
+	background-image: url(../img/photo.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%; /*паддинг берет свой относительный размер от родителя
+теперь картинка будет сжиматься и растягиваться вместе с колонкой*/
+}

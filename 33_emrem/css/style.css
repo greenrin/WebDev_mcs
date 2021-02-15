@@ -1,0 +1,15 @@
+@import url(reser.css);
+
+.outer{
+	font-size: 20px;
+
+}
+
+.outer h1{
+	font-size: 2em;/* единица, показывающая долю от размера шрифта родителя (.outer)
+	то есть сейчас 1.5 em это 20px*1.5*/
+}
+
+.outer2 p{
+	font-size: 2rem;
+}
