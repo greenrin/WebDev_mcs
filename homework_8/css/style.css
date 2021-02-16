@@ -44,7 +44,7 @@
 .image{
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%; 
+	padding-bottom: 150%; 
 }
 .image.one{
 	background-image: url(../img/Meta_Side_Table.png);

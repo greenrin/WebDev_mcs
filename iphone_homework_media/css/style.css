@@ -13,14 +13,15 @@ html{
 	padding-top: 30px;
 }
 
-.main{
-	display: block;
-	}
+
 .text{
-	min-height: 20vh;
+	min-height: 15vh;
 	border: 5px solid black;
-	margin: 5vh;
-	min-width: 40vw;
+	align-items: center;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+
+
 }
 .text p{
 	text-align: center;
@@ -33,11 +34,16 @@ html{
 
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 812px){
 	.main{
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
 	}
+	.text{
+		width: 40vw;
+		
+	}
+	
 }
 
