@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+div{
+	height: 300px;
+	background-color: red;
+}
+
+@media screen and (min-width: 600px){
+	div{
+		background-color: blue;
+		height: 400px;
+	}
+}
+
+@media screen and (min-width: 960px){
+	div{
+		background-color: yellow;
+		height: 500px;
+	}
+}
+
+@media screen and (min-width: 1264px){
+	div{
+		background-color: green;
+		height: 600px;
+	}
+}
+
+@media screen and (min-width: 1904px){
+	div{
+		background-color: orange;
+		height: 700px;
+	}
+}
+
