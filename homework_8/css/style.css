@@ -20,10 +20,9 @@
 .columns{
 	width: 90vw;
 	margin:auto;
-	min-height: 30vh;
 	display: flex;
 	justify-content: space-around;
-	align-items: stretch; 
+	align-items: flex-start; 
 }
 
 .column{
