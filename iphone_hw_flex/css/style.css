@@ -28,7 +28,7 @@ html{
 	width: 90vw;
 	display:flex;
 	flex: 40vw 1 1;
-	aspect-ratio: 2/1.2;
+	aspect-ratio: 2/1;
 	min-width: 310px;
 	min-height: 190px;
 
