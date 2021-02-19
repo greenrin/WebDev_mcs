@@ -18,27 +18,27 @@ html{
 	display: flex;
 	flex-wrap:wrap;
 	align-items: center;
-	justify-content: space-around;
-	gap: 40px;
-	
+	gap: 30px;
+	margin: 50px;
+	min-height: calc(100vh - 300px);
 }
 .text{
-	min-height: 15vh;
 	border: 5px solid black;
 	align-items: center;
-
 	width: 90vw;
+	display:flex;
+	flex: 40vw 1 1;
+	aspect-ratio: 2/1.2;
+	min-width: 310px;
+	min-height: 190px;
 
 }
 .text p{
-	text-align: center;
-	font-weight: 900;
-	font-size: 2rem;
-	padding-top: 10vh;
-	padding-left: 3vw;
-	padding-right: 3vw;
+	font-weight: 700;
+	font-size: calc(1rem + 1vw);
 	line-height: 130%;
-
+	margin: auto;
+	text-align: center;
 }
 
 .footer{
@@ -52,12 +52,5 @@ html{
 	padding-right: 35px;
 }
 
-@media screen and (min-width: 812px){
 
-	.text{
-		width: 40vw;
-		
-	}
-	
-}
 
